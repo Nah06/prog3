@@ -1,0 +1,58 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poiret", sans-serif;
+}
+p{
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 10px;
+}
+ol,ul{
+    padding-left:20px;
+}
+figure{
+    width: 350px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+h3{
+    margin: 9px;
+}
+.vermelho{
+    background-color: red;
+    color:black;
+}
+.azul{
+    background-color: rgb(137, 166, 230);
+    color:black;
+}
+#container{
+    width: 800px;
+    margin: 0 auto;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+td,th{
+    border: 2px solid black; 
+    
+}
+a:hover{
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.imperial{
+    font-family: "Imperial Script", serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 50px;
+  }

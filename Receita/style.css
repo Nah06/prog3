@@ -1,0 +1,128 @@
+/* Estilos gerais */
+body {
+    font-family: 'Imbue', serif;
+    background-color: #ffe6f2;
+    color: #5a3a3a;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff99cc;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: white;
+}
+
+/* Conteúdo principal */
+.principal {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #d63384;
+    font-size: 2em;
+}
+
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #7a4e4e;
+}
+
+/* Botões */
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.botao {
+    text-decoration: none;
+    background-color: #ff66b2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    transition: background 0.3s;
+}
+
+.botao:hover {
+    background-color: #e60073;
+}
+
+/* Imagem */
+figure {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #ff99cc;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.laco {
+    position: relative;
+    display: inline-block;
+}
+
+.laco::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: -25px;
+    width: 50px; /* Ajuste o tamanho do laço */
+    height: 40px;
+    background: url('laco.png') no-repeat center;
+    background-size: contain;
+    transform: rotate(25deg); /* Ajuste o ângulo conforme necessário */
+}
+.milkshake-container {
+    position: relative;
+    display: inline-block;
+}
+
+.laco-milkshake {
+    content: "";
+    position: absolute;
+    top: -45px; /* Ajuste conforme necessário */
+    right: -35px; /* Ajuste conforme necessário */
+    width: 70px; /* Aumentando o tamanho do laço */
+    height: 100px; /* Mantendo proporcional */
+    background: url('laco.png') no-repeat center;
+    background-size: contain;
+    transform: rotate(45deg); /* Inclinação do laço */
+}
+.voltar{
+    position: fixed; /* Posiciona o link de forma fixa */
+    bottom: 20px; /* Distância do fundo da página */
+    right: 20px; /* Distância da borda direita */
+    background-color: #ff99cc; /* Cor de fundo */
+    color:#e60073; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto mais em destaque */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+}
